@@ -4,10 +4,10 @@ import streamlit as st
 
 # --- Parameters ---
 n = 10                 # lattice size
-kB = 0.12            # Boltzmann constant (chosen so Tc ~ 25)
-minT = 1.0          # avoid T = 0
-maxT = 30
-stepT = 1.0
+kB = 0.1            # Boltzmann constant (chosen so Tc ~ 25)
+minT = 4.0          # avoid T = 0
+maxT = 40
+stepT = 2.0
 sample_N = int((maxT - minT) / stepT) + 1
 mc_steps = 50000     # Monte Carlo steps per T
 equil_steps = 10_000  # extra sweeps to equilibrate
