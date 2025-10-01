@@ -4,7 +4,7 @@ import streamlit as st
 
 # Parameters
 n = 10                 # lattice size
-kB = 0.0027          # Boltzmann constant
+kB = 0.0026          # Boltzmann constant
 dT = 1e-2              # convergence threshold
 
 # Initialize random spin lattice (-1 or +1)
@@ -50,7 +50,7 @@ while abs(T[i] - T[i - 1]) > dT:
     lattice = monte_carlo_step(lattice, J, T[i], kB, steps=20_000)
 
     # --- Measurement sweeps ---
-    lattice = monte_carlo_step(lattice, J, T[i], kB, steps=100_000)
+    lattice = monte_carlo_step(lattice, J, T[i], kB, steps=1000000)
 
     # Normalized magnetization per spin
     Ferromagneticism = abs(np.sum(lattice)) / (n**3)
