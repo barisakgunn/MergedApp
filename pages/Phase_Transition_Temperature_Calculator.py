@@ -4,7 +4,7 @@ import streamlit as st
 
 # Parameters
 n = 10                 # lattice size
-kB = 0.0024          # Boltzmann constant
+kB = 0.0027          # Boltzmann constant
 dT = 1e-2              # convergence threshold
 
 # Initialize random spin lattice (-1 or +1)
