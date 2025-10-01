@@ -1,17 +1,15 @@
 import streamlit as st
 
-st.title("Ising Model")
-
 st.markdown(
     """
-    # Spin Glass Simulation (Ising Model in MATLAB)
+    # Simulation of Spin-Glass phases in the 3D Ising model
 
     📖 **Overview**
 
-    This project implements a spin glass simulation using the Ising model in MATLAB.  
+    This project implements a spin glass simulation using the Ising model.  
     The Ising model is a fundamental tool in statistical mechanics used to study phase transitions, magnetism, and disordered systems such as spin glasses.
 
-    The project uses Monte Carlo methods to simulate spin interactions and analyze the system’s behavior under varying temperature and coupling conditions.
+    The project uses Monte Carlo methods to simulate spin interactions and analyze the system’s behavior under varying temperature values.
 
     ⚡ **Features**
     - 2D/3D lattice initialization with random spin configurations  
