@@ -16,5 +16,7 @@ st.markdown(
     - Monte Carlo updates  
     - Temperature-dependent simulations  
     - 3D Visualization of lattice evolution and thermodynamic quantities  
+
+     DOI: 10.1103/PhysRevE.104.044131
     """
 )
