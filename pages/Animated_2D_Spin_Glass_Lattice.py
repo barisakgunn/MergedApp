@@ -9,8 +9,8 @@ kB = 0.007
 steps_per_frame = 500
 
 # Streamlit UI
-st.title("2D Ising Model Animation")
-T = st.slider("Choose Temperature", min_value=0.1, max_value=20.0, value=2.0, step=0.1)
+st.title("Animated 2D Spin_Glass Lattice")
+T = st.slider("Choose Temperature", min_value=0.1, max_value=40.0, value=2.0, step=0.1)
 J = 1.0 / T
 
 # Initialize lattice in session state
