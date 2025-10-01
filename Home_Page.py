@@ -11,11 +11,10 @@ st.markdown(
 
     The project uses Monte Carlo methods to simulate spin interactions and analyze the system’s behavior under varying temperature values.
 
-    ⚡ **Features**
-    - 2D/3D lattice initialization with random spin configurations  
+    ⚡ **Features** 
     - Ferromagnetic and spin glass couplings (positive/negative interactions)  
     - Monte Carlo updates  
     - Temperature-dependent simulations  
-    - Visualization of lattice evolution and thermodynamic quantities  
+    - 3D Visualization of lattice evolution and thermodynamic quantities  
     """
 )
